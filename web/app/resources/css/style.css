@@ -1,0 +1,31 @@
+html{background: #333;}
+header{padding: 20px;}
+header img{width: 20%;float: left;}
+header h2{float: right;font-family: cursive;font-size: 20px;margin-top: 60px;}
+
+header h2 a{font-size: 18px;margin-left: 10px;}
+
+.contents{border-radius: 20px;border: 1px solid #DDD; padding: 20px;min-height: 350px;}
+.logincont{width: 800px; margin:50px auto;}
+aside{float: left;width: 20%;}
+aside a{ display: block;margin: 5px;margin-right: 20px;}
+
+
+.btn-danger{border-radius: 5px;padding: 5px;padding: 7px 15px;}
+.btn-danger:hover{ text-decoration: none;}
+footer{padding: 20px; text-align: center;}
+footer p{font-family:verdana;font-size: 16px;}
+
+.clear{clear: both}
+
+/******* login page*******/
+
+.register{width: 40%;float: left; min-height: 500px;}
+.login{width: 30%;float: right;margin-right: 50px;}
+
+.register h2,.login h2 {font-family:verdana; font-size: 20px;margin-left: 10px;}
+.register input[type="submit"],.login input[type="submit"]{margin-left: 10px;}
+.register input[type="text"] ,.login input[type="text"],.register input[type="email"] ,.login input[type="password"],.register input[type="password"]{
+    display: block; border:1px solid #DDD; margin: 10px;
+}
+
